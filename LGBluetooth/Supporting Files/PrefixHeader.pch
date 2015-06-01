@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  LGBluetooth
+//
+//  Created by Tony Osibov on 6/1/15.
+//  Copyright (c) 2015 l0gg3r. All rights reserved.
+//
+
+#ifndef LGBluetooth_PrefixHeader_pch
+#define LGBluetooth_PrefixHeader_pch
+
+#import <Foundation/Foundation.h>
+
+#endif

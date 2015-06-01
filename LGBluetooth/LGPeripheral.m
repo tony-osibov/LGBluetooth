@@ -28,6 +28,7 @@
 #import <IOBluetooth/IOBluetooth.h>
 #endif
 #import "LGCentralManager.h"
+#import "LGService.h"
 #import "LGUtils.h"
 
 // Notifications

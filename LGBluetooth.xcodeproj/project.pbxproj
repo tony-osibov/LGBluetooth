@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAA896FC1B1CE94D000A83FF /* CBUUID+StringExtraction.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896EF1B1CE94D000A83FF /* CBUUID+StringExtraction.h */; };
+		EAA896FD1B1CE94D000A83FF /* CBUUID+StringExtraction.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896EF1B1CE94D000A83FF /* CBUUID+StringExtraction.h */; };
+		EAA896FE1B1CE94D000A83FF /* CBUUID+StringExtraction.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896F01B1CE94D000A83FF /* CBUUID+StringExtraction.m */; };
+		EAA896FF1B1CE94D000A83FF /* CBUUID+StringExtraction.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896F01B1CE94D000A83FF /* CBUUID+StringExtraction.m */; };
+		EAA897021B1CE94D000A83FF /* LGCentralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F21B1CE94D000A83FF /* LGCentralManager.h */; };
+		EAA897031B1CE94D000A83FF /* LGCentralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F21B1CE94D000A83FF /* LGCentralManager.h */; };
+		EAA897041B1CE94D000A83FF /* LGCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896F31B1CE94D000A83FF /* LGCentralManager.m */; };
+		EAA897051B1CE94D000A83FF /* LGCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896F31B1CE94D000A83FF /* LGCentralManager.m */; };
+		EAA897061B1CE94D000A83FF /* LGCharacteristic.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F41B1CE94D000A83FF /* LGCharacteristic.h */; };
+		EAA897071B1CE94D000A83FF /* LGCharacteristic.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F41B1CE94D000A83FF /* LGCharacteristic.h */; };
+		EAA897081B1CE94D000A83FF /* LGCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896F51B1CE94D000A83FF /* LGCharacteristic.m */; };
+		EAA897091B1CE94D000A83FF /* LGCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896F51B1CE94D000A83FF /* LGCharacteristic.m */; };
+		EAA8970A1B1CE94D000A83FF /* LGPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F61B1CE94D000A83FF /* LGPeripheral.h */; };
+		EAA8970B1B1CE94D000A83FF /* LGPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F61B1CE94D000A83FF /* LGPeripheral.h */; };
+		EAA8970C1B1CE94D000A83FF /* LGPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896F71B1CE94D000A83FF /* LGPeripheral.m */; };
+		EAA8970D1B1CE94D000A83FF /* LGPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896F71B1CE94D000A83FF /* LGPeripheral.m */; };
+		EAA8970E1B1CE94D000A83FF /* LGService.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F81B1CE94D000A83FF /* LGService.h */; };
+		EAA8970F1B1CE94D000A83FF /* LGService.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F81B1CE94D000A83FF /* LGService.h */; };
+		EAA897101B1CE94D000A83FF /* LGService.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896F91B1CE94D000A83FF /* LGService.m */; };
+		EAA897111B1CE94D000A83FF /* LGService.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896F91B1CE94D000A83FF /* LGService.m */; };
+		EAA897121B1CE94D000A83FF /* LGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896FA1B1CE94D000A83FF /* LGUtils.h */; };
+		EAA897131B1CE94D000A83FF /* LGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896FA1B1CE94D000A83FF /* LGUtils.h */; };
+		EAA897141B1CE94D000A83FF /* LGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896FB1B1CE94D000A83FF /* LGUtils.m */; };
+		EAA897151B1CE94D000A83FF /* LGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896FB1B1CE94D000A83FF /* LGUtils.m */; };
+		EAA8971E1B1CE9D8000A83FF /* LGBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA897191B1CE9D8000A83FF /* LGBluetooth.h */; };
+		EAA8971F1B1CE9D8000A83FF /* LGBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA897191B1CE9D8000A83FF /* LGBluetooth.h */; };
+		EAA897211B1CEA3A000A83FF /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA897201B1CEA3A000A83FF /* CoreBluetooth.framework */; };
+		EAA897241B1CEA63000A83FF /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA897231B1CEA63000A83FF /* IOBluetooth.framework */; };
+		EAA897261B1CEB0F000A83FF /* IOBluetoothUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA897251B1CEB0F000A83FF /* IOBluetoothUI.framework */; };
+		EAA897281B1CEB21000A83FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA897271B1CEB21000A83FF /* Foundation.framework */; };
+		EAA8972A1B1CEB27000A83FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA897291B1CEB27000A83FF /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EAA896B51B1CE785000A83FF /* LGBluetooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LGBluetooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA896D61B1CE7A2000A83FF /* LGBluetooth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LGBluetooth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA896EF1B1CE94D000A83FF /* CBUUID+StringExtraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CBUUID+StringExtraction.h"; sourceTree = "<group>"; };
+		EAA896F01B1CE94D000A83FF /* CBUUID+StringExtraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CBUUID+StringExtraction.m"; sourceTree = "<group>"; };
+		EAA896F21B1CE94D000A83FF /* LGCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCentralManager.h; sourceTree = "<group>"; };
+		EAA896F31B1CE94D000A83FF /* LGCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCentralManager.m; sourceTree = "<group>"; };
+		EAA896F41B1CE94D000A83FF /* LGCharacteristic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGCharacteristic.h; sourceTree = "<group>"; };
+		EAA896F51B1CE94D000A83FF /* LGCharacteristic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGCharacteristic.m; sourceTree = "<group>"; };
+		EAA896F61B1CE94D000A83FF /* LGPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGPeripheral.h; sourceTree = "<group>"; };
+		EAA896F71B1CE94D000A83FF /* LGPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGPeripheral.m; sourceTree = "<group>"; };
+		EAA896F81B1CE94D000A83FF /* LGService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGService.h; sourceTree = "<group>"; };
+		EAA896F91B1CE94D000A83FF /* LGService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGService.m; sourceTree = "<group>"; };
+		EAA896FA1B1CE94D000A83FF /* LGUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGUtils.h; sourceTree = "<group>"; };
+		EAA896FB1B1CE94D000A83FF /* LGUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGUtils.m; sourceTree = "<group>"; };
+		EAA897171B1CE9D8000A83FF /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+		EAA897181B1CE9D8000A83FF /* Info-OSX.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-OSX.plist"; sourceTree = "<group>"; };
+		EAA897191B1CE9D8000A83FF /* LGBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGBluetooth.h; sourceTree = "<group>"; };
+		EAA897201B1CEA3A000A83FF /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		EAA897231B1CEA63000A83FF /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+		EAA897251B1CEB0F000A83FF /* IOBluetoothUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetoothUI.framework; path = System/Library/Frameworks/IOBluetoothUI.framework; sourceTree = SDKROOT; };
+		EAA897271B1CEB21000A83FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EAA897291B1CEB27000A83FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EAA8972B1B1CECBE000A83FF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAA896B11B1CE785000A83FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA8972A1B1CEB27000A83FF /* Foundation.framework in Frameworks */,
+				EAA897261B1CEB0F000A83FF /* IOBluetoothUI.framework in Frameworks */,
+				EAA897241B1CEA63000A83FF /* IOBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA896D21B1CE7A2000A83FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA897281B1CEB21000A83FF /* Foundation.framework in Frameworks */,
+				EAA897211B1CEA3A000A83FF /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAA896AB1B1CE785000A83FF = {
+			isa = PBXGroup;
+			children = (
+				EAA896B71B1CE785000A83FF /* LGBluetooth */,
+				EAA897221B1CEA43000A83FF /* Frameworks */,
+				EAA896B61B1CE785000A83FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAA896B61B1CE785000A83FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAA896B51B1CE785000A83FF /* LGBluetooth.framework */,
+				EAA896D61B1CE7A2000A83FF /* LGBluetooth.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAA896B71B1CE785000A83FF /* LGBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				EAA896EF1B1CE94D000A83FF /* CBUUID+StringExtraction.h */,
+				EAA896F01B1CE94D000A83FF /* CBUUID+StringExtraction.m */,
+				EAA896F21B1CE94D000A83FF /* LGCentralManager.h */,
+				EAA896F31B1CE94D000A83FF /* LGCentralManager.m */,
+				EAA896F41B1CE94D000A83FF /* LGCharacteristic.h */,
+				EAA896F51B1CE94D000A83FF /* LGCharacteristic.m */,
+				EAA896F61B1CE94D000A83FF /* LGPeripheral.h */,
+				EAA896F71B1CE94D000A83FF /* LGPeripheral.m */,
+				EAA896F81B1CE94D000A83FF /* LGService.h */,
+				EAA896F91B1CE94D000A83FF /* LGService.m */,
+				EAA896FA1B1CE94D000A83FF /* LGUtils.h */,
+				EAA896FB1B1CE94D000A83FF /* LGUtils.m */,
+				EAA897161B1CE9D8000A83FF /* Supporting Files */,
+			);
+			path = LGBluetooth;
+			sourceTree = "<group>";
+		};
+		EAA897161B1CE9D8000A83FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAA897171B1CE9D8000A83FF /* Info-iOS.plist */,
+				EAA897181B1CE9D8000A83FF /* Info-OSX.plist */,
+				EAA897191B1CE9D8000A83FF /* LGBluetooth.h */,
+				EAA8972B1B1CECBE000A83FF /* PrefixHeader.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAA897221B1CEA43000A83FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAA897291B1CEB27000A83FF /* Foundation.framework */,
+				EAA897271B1CEB21000A83FF /* Foundation.framework */,
+				EAA897251B1CEB0F000A83FF /* IOBluetoothUI.framework */,
+				EAA897231B1CEA63000A83FF /* IOBluetooth.framework */,
+				EAA897201B1CEA3A000A83FF /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EAA896B21B1CE785000A83FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA8971E1B1CE9D8000A83FF /* LGBluetooth.h in Headers */,
+				EAA897061B1CE94D000A83FF /* LGCharacteristic.h in Headers */,
+				EAA897021B1CE94D000A83FF /* LGCentralManager.h in Headers */,
+				EAA897121B1CE94D000A83FF /* LGUtils.h in Headers */,
+				EAA8970E1B1CE94D000A83FF /* LGService.h in Headers */,
+				EAA896FC1B1CE94D000A83FF /* CBUUID+StringExtraction.h in Headers */,
+				EAA8970A1B1CE94D000A83FF /* LGPeripheral.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA896D31B1CE7A2000A83FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA8971F1B1CE9D8000A83FF /* LGBluetooth.h in Headers */,
+				EAA897071B1CE94D000A83FF /* LGCharacteristic.h in Headers */,
+				EAA897031B1CE94D000A83FF /* LGCentralManager.h in Headers */,
+				EAA897131B1CE94D000A83FF /* LGUtils.h in Headers */,
+				EAA8970F1B1CE94D000A83FF /* LGService.h in Headers */,
+				EAA896FD1B1CE94D000A83FF /* CBUUID+StringExtraction.h in Headers */,
+				EAA8970B1B1CE94D000A83FF /* LGPeripheral.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EAA896B41B1CE785000A83FF /* LGBluetooth OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA896CB1B1CE786000A83FF /* Build configuration list for PBXNativeTarget "LGBluetooth OSX" */;
+			buildPhases = (
+				EAA896B01B1CE785000A83FF /* Sources */,
+				EAA896B11B1CE785000A83FF /* Frameworks */,
+				EAA896B21B1CE785000A83FF /* Headers */,
+				EAA896B31B1CE785000A83FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LGBluetooth OSX";
+			productName = LGBluetooth;
+			productReference = EAA896B51B1CE785000A83FF /* LGBluetooth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAA896D51B1CE7A2000A83FF /* LGBluetooth iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA896E91B1CE7A2000A83FF /* Build configuration list for PBXNativeTarget "LGBluetooth iOS" */;
+			buildPhases = (
+				EAA896D11B1CE7A2000A83FF /* Sources */,
+				EAA896D21B1CE7A2000A83FF /* Frameworks */,
+				EAA896D31B1CE7A2000A83FF /* Headers */,
+				EAA896D41B1CE7A2000A83FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LGBluetooth iOS";
+			productName = LGBluetooth;
+			productReference = EAA896D61B1CE7A2000A83FF /* LGBluetooth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAA896AC1B1CE785000A83FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = l0gg3r;
+				TargetAttributes = {
+					EAA896B41B1CE785000A83FF = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					EAA896D51B1CE7A2000A83FF = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = EAA896AF1B1CE785000A83FF /* Build configuration list for PBXProject "LGBluetooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EAA896AB1B1CE785000A83FF;
+			productRefGroup = EAA896B61B1CE785000A83FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAA896B41B1CE785000A83FF /* LGBluetooth OSX */,
+				EAA896D51B1CE7A2000A83FF /* LGBluetooth iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAA896B31B1CE785000A83FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA896D41B1CE7A2000A83FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAA896B01B1CE785000A83FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA8970C1B1CE94D000A83FF /* LGPeripheral.m in Sources */,
+				EAA897041B1CE94D000A83FF /* LGCentralManager.m in Sources */,
+				EAA896FE1B1CE94D000A83FF /* CBUUID+StringExtraction.m in Sources */,
+				EAA897101B1CE94D000A83FF /* LGService.m in Sources */,
+				EAA897141B1CE94D000A83FF /* LGUtils.m in Sources */,
+				EAA897081B1CE94D000A83FF /* LGCharacteristic.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAA896D11B1CE7A2000A83FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA8970D1B1CE94D000A83FF /* LGPeripheral.m in Sources */,
+				EAA897051B1CE94D000A83FF /* LGCentralManager.m in Sources */,
+				EAA896FF1B1CE94D000A83FF /* CBUUID+StringExtraction.m in Sources */,
+				EAA897111B1CE94D000A83FF /* LGService.m in Sources */,
+				EAA897151B1CE94D000A83FF /* LGUtils.m in Sources */,
+				EAA897091B1CE94D000A83FF /* LGCharacteristic.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EAA896C91B1CE786000A83FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EAA896CA1B1CE786000A83FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EAA896CC1B1CE786000A83FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "LGBluetooth/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "LGBluetooth/Supporting Files/Info-OSX.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "-DTARGET_OS_MAC";
+				PRODUCT_MODULE_NAME = LGBluetooth;
+				PRODUCT_NAME = LGBluetooth;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EAA896CD1B1CE786000A83FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "LGBluetooth/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "LGBluetooth/Supporting Files/Info-OSX.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "-DTARGET_OS_MAC";
+				PRODUCT_MODULE_NAME = LGBluetooth;
+				PRODUCT_NAME = LGBluetooth;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EAA896EA1B1CE7A2000A83FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "LGBluetooth/Supporting Files/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LGBluetooth/Supporting Files/Info-iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "-DTARGET_OS_IPHONE";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = LGBluetooth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAA896EB1B1CE7A2000A83FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "LGBluetooth/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "LGBluetooth/Supporting Files/Info-iOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "-DTARGET_OS_IPHONE";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = LGBluetooth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAA896AF1B1CE785000A83FF /* Build configuration list for PBXProject "LGBluetooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA896C91B1CE786000A83FF /* Debug */,
+				EAA896CA1B1CE786000A83FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA896CB1B1CE786000A83FF /* Build configuration list for PBXNativeTarget "LGBluetooth OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA896CC1B1CE786000A83FF /* Debug */,
+				EAA896CD1B1CE786000A83FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA896E91B1CE7A2000A83FF /* Build configuration list for PBXNativeTarget "LGBluetooth iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA896EA1B1CE7A2000A83FF /* Debug */,
+				EAA896EB1B1CE7A2000A83FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAA896AC1B1CE785000A83FF /* Project object */;
+}

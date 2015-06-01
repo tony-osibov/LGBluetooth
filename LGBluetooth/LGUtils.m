@@ -28,6 +28,8 @@
 #import <IOBluetooth/IOBluetooth.h>
 #endif
 #import "LGBluetooth.h"
+#import "LGPeripheral.h"
+#import "LGService.h"
 
 /**
  * Error domain for Write errors

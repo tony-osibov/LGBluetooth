@@ -11,28 +11,28 @@
 		EAA896FD1B1CE94D000A83FF /* CBUUID+StringExtraction.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896EF1B1CE94D000A83FF /* CBUUID+StringExtraction.h */; };
 		EAA896FE1B1CE94D000A83FF /* CBUUID+StringExtraction.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896F01B1CE94D000A83FF /* CBUUID+StringExtraction.m */; };
 		EAA896FF1B1CE94D000A83FF /* CBUUID+StringExtraction.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896F01B1CE94D000A83FF /* CBUUID+StringExtraction.m */; };
-		EAA897021B1CE94D000A83FF /* LGCentralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F21B1CE94D000A83FF /* LGCentralManager.h */; };
-		EAA897031B1CE94D000A83FF /* LGCentralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F21B1CE94D000A83FF /* LGCentralManager.h */; };
+		EAA897021B1CE94D000A83FF /* LGCentralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F21B1CE94D000A83FF /* LGCentralManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAA897031B1CE94D000A83FF /* LGCentralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F21B1CE94D000A83FF /* LGCentralManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAA897041B1CE94D000A83FF /* LGCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896F31B1CE94D000A83FF /* LGCentralManager.m */; };
 		EAA897051B1CE94D000A83FF /* LGCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896F31B1CE94D000A83FF /* LGCentralManager.m */; };
-		EAA897061B1CE94D000A83FF /* LGCharacteristic.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F41B1CE94D000A83FF /* LGCharacteristic.h */; };
-		EAA897071B1CE94D000A83FF /* LGCharacteristic.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F41B1CE94D000A83FF /* LGCharacteristic.h */; };
+		EAA897061B1CE94D000A83FF /* LGCharacteristic.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F41B1CE94D000A83FF /* LGCharacteristic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAA897071B1CE94D000A83FF /* LGCharacteristic.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F41B1CE94D000A83FF /* LGCharacteristic.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAA897081B1CE94D000A83FF /* LGCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896F51B1CE94D000A83FF /* LGCharacteristic.m */; };
 		EAA897091B1CE94D000A83FF /* LGCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896F51B1CE94D000A83FF /* LGCharacteristic.m */; };
-		EAA8970A1B1CE94D000A83FF /* LGPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F61B1CE94D000A83FF /* LGPeripheral.h */; };
-		EAA8970B1B1CE94D000A83FF /* LGPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F61B1CE94D000A83FF /* LGPeripheral.h */; };
+		EAA8970A1B1CE94D000A83FF /* LGPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F61B1CE94D000A83FF /* LGPeripheral.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAA8970B1B1CE94D000A83FF /* LGPeripheral.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F61B1CE94D000A83FF /* LGPeripheral.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAA8970C1B1CE94D000A83FF /* LGPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896F71B1CE94D000A83FF /* LGPeripheral.m */; };
 		EAA8970D1B1CE94D000A83FF /* LGPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896F71B1CE94D000A83FF /* LGPeripheral.m */; };
-		EAA8970E1B1CE94D000A83FF /* LGService.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F81B1CE94D000A83FF /* LGService.h */; };
-		EAA8970F1B1CE94D000A83FF /* LGService.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F81B1CE94D000A83FF /* LGService.h */; };
+		EAA8970E1B1CE94D000A83FF /* LGService.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F81B1CE94D000A83FF /* LGService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAA8970F1B1CE94D000A83FF /* LGService.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896F81B1CE94D000A83FF /* LGService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAA897101B1CE94D000A83FF /* LGService.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896F91B1CE94D000A83FF /* LGService.m */; };
 		EAA897111B1CE94D000A83FF /* LGService.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896F91B1CE94D000A83FF /* LGService.m */; };
-		EAA897121B1CE94D000A83FF /* LGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896FA1B1CE94D000A83FF /* LGUtils.h */; };
-		EAA897131B1CE94D000A83FF /* LGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896FA1B1CE94D000A83FF /* LGUtils.h */; };
+		EAA897121B1CE94D000A83FF /* LGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896FA1B1CE94D000A83FF /* LGUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAA897131B1CE94D000A83FF /* LGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA896FA1B1CE94D000A83FF /* LGUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAA897141B1CE94D000A83FF /* LGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896FB1B1CE94D000A83FF /* LGUtils.m */; };
 		EAA897151B1CE94D000A83FF /* LGUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA896FB1B1CE94D000A83FF /* LGUtils.m */; };
-		EAA8971E1B1CE9D8000A83FF /* LGBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA897191B1CE9D8000A83FF /* LGBluetooth.h */; };
-		EAA8971F1B1CE9D8000A83FF /* LGBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA897191B1CE9D8000A83FF /* LGBluetooth.h */; };
+		EAA8971E1B1CE9D8000A83FF /* LGBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA897191B1CE9D8000A83FF /* LGBluetooth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAA8971F1B1CE9D8000A83FF /* LGBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA897191B1CE9D8000A83FF /* LGBluetooth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EAA897211B1CEA3A000A83FF /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA897201B1CEA3A000A83FF /* CoreBluetooth.framework */; };
 		EAA897241B1CEA63000A83FF /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA897231B1CEA63000A83FF /* IOBluetooth.framework */; };
 		EAA897261B1CEB0F000A83FF /* IOBluetoothUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA897251B1CEB0F000A83FF /* IOBluetoothUI.framework */; };
@@ -158,12 +158,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAA8971E1B1CE9D8000A83FF /* LGBluetooth.h in Headers */,
-				EAA897061B1CE94D000A83FF /* LGCharacteristic.h in Headers */,
-				EAA897021B1CE94D000A83FF /* LGCentralManager.h in Headers */,
-				EAA897121B1CE94D000A83FF /* LGUtils.h in Headers */,
 				EAA8970E1B1CE94D000A83FF /* LGService.h in Headers */,
-				EAA896FC1B1CE94D000A83FF /* CBUUID+StringExtraction.h in Headers */,
+				EAA897021B1CE94D000A83FF /* LGCentralManager.h in Headers */,
+				EAA897061B1CE94D000A83FF /* LGCharacteristic.h in Headers */,
 				EAA8970A1B1CE94D000A83FF /* LGPeripheral.h in Headers */,
+				EAA897121B1CE94D000A83FF /* LGUtils.h in Headers */,
+				EAA896FC1B1CE94D000A83FF /* CBUUID+StringExtraction.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,8 +176,8 @@
 				EAA897031B1CE94D000A83FF /* LGCentralManager.h in Headers */,
 				EAA897131B1CE94D000A83FF /* LGUtils.h in Headers */,
 				EAA8970F1B1CE94D000A83FF /* LGService.h in Headers */,
-				EAA896FD1B1CE94D000A83FF /* CBUUID+StringExtraction.h in Headers */,
 				EAA8970B1B1CE94D000A83FF /* LGPeripheral.h in Headers */,
+				EAA896FD1B1CE94D000A83FF /* CBUUID+StringExtraction.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,6 +14,8 @@ FOUNDATION_EXPORT double LGBluetoothVersionNumber;
 //! Project version string for LGBluetooth.
 FOUNDATION_EXPORT const unsigned char LGBluetoothVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <LGBluetooth/PublicHeader.h>
-
-
+#import <LGBluetooth/LGCentralManager.h>
+#import <LGBluetooth/LGCharacteristic.h>
+#import <LGBluetooth/LGPeripheral.h>
+#import <LGBluetooth/LGService.h>
+#import <LGBluetooth/LGUtils.h>

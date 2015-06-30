@@ -169,7 +169,7 @@
 {
     LGLog(@"Characteristic - %@ value - %s error - %@",
           self.cbCharacteristic.UUID, [aValue bytes], anError);
-    
+    LGLog(@"Update Callback: %@", self.updateCallback);
     if (self.updateCallback) {
         self.updateCallback(aValue, anError);
     }

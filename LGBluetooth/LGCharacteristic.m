@@ -94,7 +94,7 @@
     if (!aCallback) {
         aCallback = ^(NSError *error){};
     }
-    
+    NSLog(@"%@", self);
     self.updateCallback = uCallback;
     
     [self push:aCallback toArray:self.notifyOperationStack];
@@ -169,7 +169,7 @@
 {
     LGLog(@"Characteristic - %@ value - %s error - %@",
           self.cbCharacteristic.UUID, [aValue bytes], anError);
-    LGLog(@"Update Callback: %@", self.updateCallback);
+    LGLog(@"Update Callback: %@ %@", self, self.updateCallback);
     if (self.updateCallback) {
         self.updateCallback(aValue, anError);
     }

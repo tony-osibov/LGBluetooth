@@ -24,7 +24,7 @@
 #ifdef DEBUG
 #define LG_ENABLE_BLE_LOGGING 1
 #else
-#define LG_ENABLE_BLE_LOGGING 0
+#define LG_ENABLE_BLE_LOGGING 1
 #endif
 #endif
 

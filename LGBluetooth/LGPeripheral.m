@@ -247,7 +247,7 @@ NSString * const kConnectionMissingErrorMessage = @"BLE Device is not connected"
 
 #if LG_ENABLE_BLE_LOGGING != 0
         for (LGService *aService in self.services) {
-            LGLog(@"Service discovered - %@", aService.cbService.UUID);
+            LGLog(@"Service discovered - %@ %@", aService.cbService, aService.cbService.UUID);
         }
 #endif
         
